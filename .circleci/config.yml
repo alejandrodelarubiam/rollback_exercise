@@ -33,7 +33,7 @@ jobs:
       - run:
           name: Test job
          # Fail the job intentionally to simulate an error.
-          command:  return 1   
+          command:  exit 1   
       - destroy_environment
 # Sequential workflow 1
 workflows:
