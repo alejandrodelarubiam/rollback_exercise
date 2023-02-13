@@ -35,7 +35,7 @@ smoke_test:
        # Fail the job intentionally to simulate an error.
         command:  return 1   
     - destroy_environment
-# Sequential workflow
+# Sequential workflow 1
 workflows:
   myWorkflow:
     jobs:
